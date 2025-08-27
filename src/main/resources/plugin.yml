@@ -1,0 +1,15 @@
+name: UnStableSMP
+main: com.ma4z.unstablesmp.UnStableSMP
+version: 1.0.0
+api-version: 1.21
+author: ma4z
+description: A simple SMP plugin where players are banned on first death until revived.
+commands:
+  revive:
+    description: Revive a dead player so they can rejoin
+    usage: /revive <player>
+    permission: unstablesmp.revive
+permissions:
+  unstablesmp.revive:
+    description: Allows the player to revive others
+    default: op
